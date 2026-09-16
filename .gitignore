@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Windows / OneDrive
+desktop.ini
+Thumbs.db
+
+# Django DB backups
+db_*.sqlite3
+db.sqlite3-journal
+
+# Model weights
+*.bin
+*.safetensors
+*.h5
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Datasets / big binaries
+*.arrow
+*.zip
+*.tar.gz
+*.7z
+
+# Large preprocessed CSVs
+news_dataset_preprocessed_for_django*.csv
+
+# YOLO training outputs
+best.pt
+last.pt
+runs/
+
+# venv
+venv/
+.venv/
+env/
+
+# Editor / IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+
